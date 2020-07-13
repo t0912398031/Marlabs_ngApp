@@ -5,7 +5,7 @@
 <!-- <div class="rounded border border-primary">
     view-detail component -->
     <div>
-        <iframe [src]="video.url | safe" height="500" width="100%"></iframe>
+        <iframe [src]="video.url | safe: 'resourceUrl'" height="500" width="100%"></iframe>
     </div>
     <div>
         <form>
