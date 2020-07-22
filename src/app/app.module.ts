@@ -11,6 +11,8 @@ import { VideoListComponent } from './video-list/video-list.component';
 import { VideoDetailComponent } from './video-detail/video-detail.component';
 import { SafePipe } from './safe.pipe';
 import { MediaComponent } from './media/media.component';
+import { InsightComponent } from './insight/insight.component';
+import { InsightDetailComponent } from './insight-detail/insight-detail.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { MediaComponent } from './media/media.component';
     VideoListComponent,
     VideoDetailComponent,
     SafePipe,
-    MediaComponent
+    MediaComponent,
+    InsightComponent,
+    InsightDetailComponent
   ],
   imports: [
     BrowserModule,

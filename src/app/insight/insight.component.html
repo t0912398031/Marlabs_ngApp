@@ -1,0 +1,40 @@
+<div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-4" *ngFor="let insight of insights">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top" style="height: 225px; width: 100%; display: block;" [src]="insight.url">
+            <div class="card-body">
+                <div id="column-content">
+                    <span class="material-icons">
+                        insights
+                    </span>
+                    <span id="media">
+                        Insight
+                    </span>
+                        
+                    
+                </div>
+             
+              <p class="card-text">{{insight.title}}</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" (click)="onViewDetails(insight)">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">{{insight.date | date:'shortDate' }}</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+  </div>
+
+<!-- <insight-detail *ngIf="true" 
+    (updateVideoEvent)="onUpdateVideoEvent($event)" (deleteVideoEvent)="onDeleteVideoEvent($event)" [insight]="selectedVideo">
+</insight-detail> -->

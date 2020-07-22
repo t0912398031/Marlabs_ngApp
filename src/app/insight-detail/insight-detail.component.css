@@ -1,0 +1,22 @@
+.header-title, .article-header .header-title h1 {
+    font-size: 2.2em;
+    margin: 0;
+    color: #4F7E2B;
+    line-height: 1.2em;
+}
+
+
+#button-icon {
+    position: relative;
+    top:3px;
+    vertical-align: center;
+    /* text-align: center; */
+    margin:0
+}
+#button-text {
+    position: relative;
+    bottom:3px;
+    vertical-align: center;
+    /* text-align: center; */
+    margin:0
+}

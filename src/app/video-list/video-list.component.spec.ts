@@ -22,4 +22,8 @@ describe('VideoListComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should have videos', () => {
+    expect(component.videos).not.toEqual(null);
+  });
 });

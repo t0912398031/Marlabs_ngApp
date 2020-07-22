@@ -1,0 +1,883 @@
+<div>
+    
+    <button type="button" class="btn btn-dark">
+        <span class="material-icons" id="button-icon">
+            arrow_back
+        </span>
+        <span id="button-text">Back</span>
+        
+    </button>
+
+    
+    <span class="article-topic-label">Topic of Focus: <span class="article-topic">{{insight.topic}}</span></span>
+
+
+
+
+    <header class="article-header">					
+                
+        <time datetime="May 7, 2020" class="header-date">{{insight.date | date:'longDate'}}</time>
+      
+     <div class="header-author">{{insight.contributor}}</div>
+     <h1 class="header-title">
+        {{insight.title}}
+     </h1>
+     
+
+     <div id="download" class="text-right"><a class="download" href="javascript:void(0);" onclick="openWindow('/us/en/pdfs/whitepapers/coronavirus-task-force-2020-05.pdf');">Download</a></div>
+     
+ </header>
+</div>
+
+<div class="article-body">           
+    <div class="sidebar hidden-content" style="display: block;">
+    </div>
+    <section class="article-content">						
+        <div class="visible-content article-summary row" style="height: auto; display: none;">
+            <div class="medium-4 columns">
+                <div class="article-author">
+                    
+                        <div class="author-item">
+                            <img src="/common/img/commentary/home_img/headshots/hughes_mark_DSC_7470_296x252.jpg" alt="" class="author-thumbnail">
+                            
+                                <p class="author-biography multiple-author-biography"><strong>Mark A. Hughes</strong><br>Portfolio Manager/Research Analyst</p>
+                            
+                            <p class="author-small-biography">
+                                
+                                
+                            </p>
+                        </div>
+                    
+                        <div class="author-item">
+                            <img src="/common/img/commentary/home_img/headshots/commentary-sachdeva-rajiv.jpg" alt="" class="author-thumbnail">
+                            
+                                <p class="author-biography multiple-author-biography"><strong>Dr. Rajiv Sachdeva</strong><br>Head of Portfolio and Quantitative Analysis</p>
+                            
+                            <p class="author-small-biography">
+                                
+                                
+                            </p>
+                        </div>
+                    
+                </div>
+            </div>
+            <div class="medium-8 columns">
+                <!--| KEY TAKEAWAYS |-->
+                
+                    <h3 class="row-title">KEY TAKEAWAYS</h3>
+                    <ul class="item-list">
+                        <li><span>COVID-19’s combination of mortality and contagiousness has led to an unprecedented shock to the global economy. </span></li> <li><span>Western Asset is tracking a range of potential COVID-19 therapies; while we expect incremental progress in improving medical outcomes, we do not necessarily expect a game-changing treatment in the near-term. </span></li> <li><span>A rapid and massive response from global policymakers has stabilized global markets and set the table for an economic recovery once containment measures have abated. </span></li> <li><span>With data about the virus showing promising trends, we are already witnessing a global movement toward the relaxing of social distancing and we anticipate containment measures being loosened across developed markets over the next two to four weeks. </span></li> <li><span>Western Asset expects a sharper economic recovery from the COVID-19 crisis than we saw following the global financial crisis given the self-imposed nature of the current crisis and the subsequent policy response. </span></li> <li><span>Investment-grade credit is at the top of our opportunity list given historically wide valuations and central bank backstops.</span></li> 
+                    </ul>
+                
+                <button id="showMore" class="btn-show-more" style="display: none;">
+                    <span class="btn-show-more-text">Read the Full Paper</span>
+                    <span class="btn-show-more-icon">
+                        <img alt="" src="/common/img/arrow-right-opens-new-page.png">
+                    </span>
+                </button>
+            </div>
+        </div>
+        <div class="hidden-content full-article" style="display: block;">
+            <!--| CONTENTBOX |-->
+            <!-- OPEN - CONTENT BLOCK ITERATE -->
+            
+                
+                
+                  
+                        <!--| STANDOUT TEXT |-->
+                        <aside class="quote-item quote-glove">
+                            <div class="item-content">
+                                “Now that policymakers have hopefully stabilized financial markets with historic amounts of monetary and fiscal firepower, our task force’s focus is on the path and pace of the economic recovery.”
+                            </div>
+                        </aside>
+                    
+                            
+                
+          
+                
+                    <!--| TEXT |-->
+                    
+                        
+                        
+                        <p>Before discussing COVID-19 and its massive impact on the globe, we at Western Asset first want to wish you and your family the best during these unsettling times. We are all adapting to new personal and lifestyle circumstances, bringing additional challenges to navigating the volatile markets. However, as we make progress toward the recovery stage of this crisis, the entire Western Asset team hopes to continue to be a resource for you.</p> <p>Looking back to the beginning of 2020, Western Asset’s outlook was for a gradual expansion of global growth, supported by low inflation and dovish central bank policy. That outlook has obviously been derailed by COVID-19 and the impact of virus containment measures that have brought the global economy to a screeching halt. Today’s self-imposed shutdown has resulted in an economic downturn unsurpassed in history due to its rapidity if not also severity, which has manifested itself as stress in different parts of the capital markets. Now that policymakers have hopefully stabilized financial markets with historic amounts of monetary and fiscal firepower, our task force’s focus is on the path and pace of the economic recovery. In this piece, we will discuss the virus and government response before moving on to containment relaxation, the economic outlook and Western Asset’s resulting investment strategy.</p> 
+
+                    
+                
+          
+                
+                    <!--| TEXT |-->
+                    
+                        
+                            
+                                <h3 class="content-title">
+                            
+                                Understanding and Treating COVID-19 
+                            </h3>
+                        
+                        
+                        <p class="key-paragraph" data-p-count="p3">While much has been written about it over the past several months, very few certainties are yet known about SARSCoV-2 and the disease it causes, COVID-19. While we wait for more robust clinical data in coming months, the task force has been focused on the following key aspects of the virus, which will strongly influence the duration and severity of containment measures:</p> <ul><li><b>Mortality</b>—Concern about COVID-19 emanates from its ability to kill a portion of the infected population. Initial reports of death rates in the 3%-7% range were extremely worrisome, although a lag in testing capacity has meant that many patients with milder symptoms were not counted in the denominator of the calculation. Today, our best estimate of COVID-19’s mortality rate is 0.5-1.0%, which is still elevated versus a 0.1% rate for the seasonal flu<sup>1</sup>. We expect reported rates to continue to decline as testing expands, and the rollout of broad serological testing for virus antibodies could end up finding a larger than expected infected population. In addition to COVID-19 risks the average patient faces, mortality rates are known to be higher in vulnerable populations (e.g., the elderly, immunocompromised, diabetics, etc.). This has been compounded by worries over mortality increasing even further in regions with strained health care resources, which necessitated the rapid deployment of containment measures in March. <p></p></li><li><b>Contagiousness (R<sub>0</sub>)</b>—While SARS-CoV-2 is not estimated to be as contagious as some other viruses such as measles or chickenpox, its R<sub>0</sub> factor which describes how many additional patients are infected by a single patient may be as high as 5.7<sup>2</sup>, well above the level of the seasonal flu and 2009’s H1N1 swine flu. Importantly, SARS-CoV-2 appears to be particularly infectious early in a patient’s incubation period. This allows for the increased possibility of rapid transmission from unsuspecting patients. Early projections of the virus’ spread around the globe were based on this relatively high R<sub>0</sub>; however, containment measures and social distancing have been effective in slowing the progress of the virus, shifting its R<sub>0</sub> much lower. Even as containment measures are relaxed over the coming months, we would still expect the virus’ R<sub>0</sub> to stabilize at lower levels given the likely persistence of social distancing.</li></ul><p></p> 
+
+                    
+                
+          
+                
+                    <!--| TEXT |-->
+                    
+                        
+                        
+                        <p>The following chart compares the mortality and contagiousness of historical epidemics<sup>3</sup>. While COVID-19 doesn’t stand out as a particularly deadly disease, the combination of these factors, combined with asymptomatic transmission, has caused it to be more of a problem for the global economy than was SARS or MERS.</p> 
+
+                    
+                
+          
+                
+                
+                  
+                        <!--| CHART: Exhibit 0 |-->
+                        
+                        
+                            <figure class="image-container">
+                                <header class="image-header">
+                                    Exhibit 1: 
+                                    <span class="image-header-text">
+                                        Pandemic Comparison
+                                    </span>
+                                </header>
+                                <div class="pad">
+                                    <img src="/common/img/commentary/whitepapers/coronavirus-task-force-2020-05-exhibit-1.png" alt="Explore Pandemic Comparison.">
+                                </div>
+                                <footer class="image-footer">
+                                    Source: WA estimates, NY Times, NEJM, CDC. As of 27 Apr 20. Select the image to expand the view.
+                                </footer>
+                            </figure>
+                                        
+                     
+                            
+                
+          
+                
+                    <!--| TEXT |-->
+                    
+                        
+                        
+                        <ul><li><b>Impact on Health Systems</b>—In addition to elevated mortality, COVID-19 causes respiratory distress in many patients that requires hospitalization, ICU treatment, and/or ventilation. Approximately 8% of diagnosed COVID-19 patients in the US required hospitalization as of April 17, 2020<sup>4</sup>, compared to an estimated patient hospitalization rate of 0.45%<sup>5</sup> for 2009’s H1N1. The fear that a finite amount of health system resources would be overwhelmed by COVID-19 patients helped provoke the sharp lockdown response in many countries, and the adequacy of health infrastructure will remain a focus as policymakers consider relaxing containment in the coming weeks and months. <p class="key-paragraph" data-p-count="p6"></p></li><li><b>Mutation</b>—Like its cousins SARS and MERS, SARS-CoV-2 is a coronavirus that exhibits different behavior than smaller viruses such as rhinovirus (common cold). While SARS-CoV-2 appears to be much deadlier than the seasonal flu, RNA sequencing of patients’ viruses has suggested that coronaviruses mutate at a slower pace than peers such as the constantly evolving influenza A. While there is still risk that SARSCoV-2 could mutate into a more (or less) deadly virus over the next year, our base case is that we will be living with the current virus for the foreseeable future, which lends hope for specifically targeted solutions such as vaccines.</li></ul><p></p> 
+
+                    
+                
+          
+                
+                
+                  
+                        <!--| STANDOUT TEXT |-->
+                        <aside class="quote-item quote-glove">
+                            <div class="item-content">
+                                “While daily headlines continue to tout potential treatments, the task force is taking a cautious approach to the probability of a game-changing cure given the lengthy and risky nature of the drug development process.”
+
+                            </div>
+                        </aside>
+                    
+                            
+                
+          
+                
+                    <!--| TEXT |-->
+                    
+                        
+                        
+                        <p>As scientists continue to learn more about SARS-CoV-2, the next focus will be finding treatments that can mitigate mortality risk from COVID-19. While daily headlines continue to tout potential treatments, the task force is taking a cautious approach to the probability of a game-changing cure given the lengthy and risky nature of the drug development process. We would highlight that potential drugs have to cross a number of hurdles to be able to be used by the general public, including: 1) having a demonstrated safety profile, 2) being proven effective and 3) navigating the lengthy time involved in the regulatory approval process. So unfortunately, it’s not a given that COVID-19 will be effectively treated or cured in the medium-term. </p> <p>With a number of treatments and vaccines in development and in clinical trials, we observe the following:</p> <ul><li> Existing FDA-approved treatments (e.g., tocilizumab) are important to watch, given that they have an established safety profile and can be immediately prescribed “off-label.” The FDA appears poised to approve the emergency use of some drugs with existing safety data, as it recently did with Gilead’s Phase 3 antiviral drug remdesivir. <p class="key-paragraph" data-p-count="p9"></p></li><li>Most COVID-19 drug studies published to date have not been run with blinds and controls, making statistical significance of reported results unclear. However, more robust clinical trials are underway and data will be available in months, compared to years for lengthy cancer and cardiovascular trials.<p></p> <p></p></li><li>Similar to the Spanish flu, some younger patients appear to be vulnerable to an overactive immune response called cytokine release syndrome (CRS), which could be a promising line of research and treatment. There has also been news of blood clotting and strokes in COVID-19 patients, which illustrates how the virus is attacking multiple systems in the body, not just the lungs.</li></ul><p></p> <p>Exhibit 2 compares our estimate of the promise of different categories of COVID-19 treatments with the likely time to market. While existing antivirals, such as remdesivir, currently being tested appear to be the most promising near-term approach to COVID-19, more targeted therapies that address either the body’s overactive immune response or the virus itself (vaccine) may be more effective in permanently dampening the mortality risk of COVID-19. Herd immunity, in which a major portion of a society’s population has been infected and can’t pass the virus to other patients, has been suggested as a long-term solution to the crisis. However, our estimates of total infected populations in the worst-afflicted regions (e.g., 10% in Spain and 23% in New York state<sup>6</sup>) are well below effective levels of herd immunity (i.e., 60%-90%).</p> 
+
+                    
+                
+          
+                
+                
+                  
+                        <!--| CHART: Exhibit 1 |-->
+                        
+                        
+                            <figure class="image-container">
+                                <header class="image-header">
+                                    Exhibit 2: 
+                                    <span class="image-header-text">
+                                        Comparison of Therapeutic Approaches to COVID-19
+                                    </span>
+                                </header>
+                                <div class="pad">
+                                    <img src="/common/img/commentary/whitepapers/coronavirus-task-force-2020-05-exhibit-2.png" alt="Explore Comparison of Therapeutic Approaches to COVID-19.">
+                                </div>
+                                <footer class="image-footer">
+                                    Source: WA estimates. As of 27 Apr 20. Select the image to expand the view.
+
+                                </footer>
+                            </figure>
+                                        
+                     
+                            
+                
+          
+                
+                
+                  
+                        <!--| STANDOUT TEXT |-->
+                        <aside class="quote-item quote-glove">
+                            <div class="item-content">
+                                “… despite the speed at which the COVID-19 market meltdown unfolded in March 2020, we saw both the US Federal Reserve and the European Central Bank respond quickly with a combination of rate cuts …”
+
+                            </div>
+                        </aside>
+                    
+                            
+                
+          
+                
+                    <!--| TEXT |-->
+                    
+                        
+                            
+                                <h3 class="content-title">
+                            
+                                The Global Policy Response 
+                            </h3>
+                        
+                        
+                        <p class="key-paragraph" data-p-count="p12">One unintended consequence of the global financial crisis (GFC) was that central bankers and government officials were forced to become familiar with an expanded toolbox of counter-cyclical policy tools, including quantitative easing (QE) and asset purchase programs. As a result, despite the speed at which the COVID-19 market meltdown unfolded in March 2020, we saw both the US Federal Reserve (Fed) and the European Central Bank (ECB) respond quickly with a combination of rate cuts (Exhibit 3, chart on left), liquidity provision to banks, and asset purchase programs supporting both consumer and corporate credit asset classes (e.g., SMCCF and PEPP). These moves stabilized stressed financial markets that in mid-March showed signs of forced deleveraging. Particularly notable has been the Fed’s expansion of its Secondary Market Corporate Credit Facility (SMCCF) in early April to include high-yield rated ETFs and fallen angels. Even policymakers in emerging market (EM) countries, whose toolkits are somewhat more limited, have responded with rapid interest rate cuts (Exhibit 3, chart on right).</p> 
+
+                    
+                
+          
+                
+                
+                  
+                        <!--| CHART: Exhibit 2 |-->
+                        
+                        
+                            <figure class="image-container">
+                                <header class="image-header">
+                                    Exhibit 3: 
+                                    <span class="image-header-text">
+                                        Central Banks Acted Swiftly to Combat COVID-19 Eﬀects
+                                    </span>
+                                </header>
+                                <div class="pad">
+                                    <img src="/common/img/commentary/whitepapers/coronavirus-task-force-2020-05-exhibit-3.png" alt="Explore Central Banks Acted Swiftly to Combat COVID-19 Eﬀects.">
+                                </div>
+                                <footer class="image-footer">
+                                    Source: (A) Federal Reserve. As of 31 Mar 20. (B) Bloomberg. As of 27 Apr 20. Select the image to expand the view.
+                                </footer>
+                            </figure>
+                                        
+                     
+                            
+                
+          
+                
+                    <!--| TEXT |-->
+                    
+                        
+                        
+                        <p>While central bankers are typically able to act unilaterally to provide support to the market in times of need, increasing government spending can be a much more laborious process given the political hurdles involved. Despite this, we have seen a large fiscal response from the US and European countries to try to soften the brutal impact of COVID-19 lockdowns on their respective economies (Exhibit 4). As discussed later, this wartime-type deficit spending may have an impact on future balance sheet quality and funding costs.</p> 
+
+                    
+                
+          
+                
+                
+                  
+                        <!--| STANDOUT TEXT |-->
+                        <aside class="quote-item quote-glove">
+                            <div class="item-content">
+                                “One question that has frequently been asked is why policymakers locked down the global economy for COVID-19 but have not for seasonal flu or the 2009 H1N1 pandemic that infected as many as 60 million Americans.”
+
+                            </div>
+                        </aside>
+                    
+                            
+                
+          
+                
+                
+                  
+                        <!--| CHART: Exhibit 3 |-->
+                        
+                        
+                            <figure class="image-container">
+                                <header class="image-header">
+                                    Exhibit 4: 
+                                    <span class="image-header-text">
+                                        Developed World Fiscal Response
+                                    </span>
+                                </header>
+                                <div class="pad">
+                                    <img src="/common/img/commentary/whitepapers/coronavirus-task-force-2020-05-exhibit-4.png" alt="Explore Developed World Fiscal Response.">
+                                </div>
+                                <footer class="image-footer">
+                                    Source: (A) Gavekal. (B) UBS, Western Asset calculations. As of 20 Apr 20. Select the image to expand the view.<br>
+<sup>1</sup>Appropriations; does not include contingent liabilities such as guarantees.<br>
+<sup>2</sup>Italy is proposing another round of ﬁscal stimulus worth about 3 percent of GDP.<br>
+<sup>3</sup>Very approximate.
+                                </footer>
+                            </figure>
+                                        
+                     
+                            
+                
+          
+                
+                    <!--| TEXT |-->
+                    
+                        
+                            
+                                <h3 class="content-title">
+                            
+                                The Roadmap to Relaxing Containment 
+                            </h3>
+                        
+                        
+                        <p>Before we discuss the critical topic of when and how economies will start to relax the punishing COVID-19 containment measures currently being implemented, it’s important to consider how we got here in the first place. As discussed earlier, COVID-19 is not extraordinarily fatal or contagious as compared to many communicable diseases experienced over the past century. One question that has frequently been asked is why policymakers locked down the global economy for COVID-19 but have not for seasonal flu or the 2009 H1N1 pandemic that infected as many as 60 million Americans. COVID-19’s combination of mortality rate (5x-10x higher than the seasonal flu), hospitalization rate (estimated to be 40x higher than 2009’s H1N1), and communicability (high R<sub>0</sub> and ability to be passed by asymptomatic patients) led experts to predict that health systems would be overwhelmed if the virus continued to spread unabated. While estimates of needed hospital utilization, ICU beds and ventilators have steadily declined over the past several weeks, we view this trend as a sign that containment measures have worked, rather than an indicator of an overzealous response.</p> 
+
+                    
+                
+          
+                
+                
+                  
+                        <!--| STANDOUT TEXT |-->
+                        <aside class="quote-item quote-glove">
+                            <div class="item-content">
+                                “While estimates of needed hospital utilization, ICU beds and ventilators have steadily declined over the past several weeks, we view this trend as a sign that containment measures have worked, rather than an indicator of an overzealous response.”
+                            </div>
+                        </aside>
+                    
+                            
+                
+          
+                
+                    <!--| TEXT |-->
+                    
+                        
+                        
+                        <p class="key-paragraph" data-p-count="p15">Intuitively, the containment measures implemented around the globe over the past four to six weeks should have drastically shrunk the virus’ R<sub>0</sub> and thus its spread. While COVID-19 death data has trended down, it’s a highly lagging indicator given the three to four weeks it takes a patient to show symptoms, develop respiratory problems and be hospitalized. We are instead focused on the number of patients being infected today, which we believe has fallen precipitously and could effectively reach zero over the next month in regions that implemented effective containment measures. The map below from health think tank IHME shows estimated dates when different US states will reach infection levels below one patient per million.</p> 
+
+                    
+                
+          
+                
+                
+                  
+                        <!--| CHART: Exhibit 4 |-->
+                        
+                        
+                            <figure class="image-container">
+                                <header class="image-header">
+                                    Exhibit 5: 
+                                    <span class="image-header-text">
+                                        State Containment Easing Projections
+                                    </span>
+                                </header>
+                                <div class="pad">
+                                    <img src="/common/img/commentary/whitepapers/coronavirus-task-force-2020-05-exhibit-5.png" alt="Explore State Containment Easing Projections.">
+                                </div>
+                                <footer class="image-footer">
+                                    Source: IHME. As of 29 Apr 20. Select the image to expand the view.
+
+                                </footer>
+                            </figure>
+                                        
+                     
+                            
+                
+          
+                
+                    <!--| TEXT |-->
+                    
+                        
+                        
+                        <p>Once the virus is seen as potentially having been eliminated from certain populations in the US and Europe in the near-term, the next step will be to gradually release containment measures while ensuring that new cases won’t break out again. While we acknowledge that there are political considerations involved in the discussion, we believe that there is general agreement about what will be required to get containment relaxed and the global economy moving again (Exhibit 6).</p> 
+
+                    
+                
+          
+                
+                
+                  
+                        <!--| CHART: Exhibit 5 |-->
+                        
+                        
+                            <figure class="image-container">
+                                <header class="image-header">
+                                    Exhibit 6: 
+                                    <span class="image-header-text">
+                                        Target Conditions for Containment Relaxation
+                                    </span>
+                                </header>
+                                <div class="pad">
+                                    <img src="/common/img/commentary/whitepapers/coronavirus-task-force-2020-05-exhibit-6.png" alt="Explore Target Conditions for Containment Relaxation.">
+                                </div>
+                                <footer class="image-footer">
+                                    Source: Western Asset. Select the image to expand the view.
+
+                                </footer>
+                            </figure>
+                                        
+                     
+                            
+                
+          
+                
+                    <!--| TEXT |-->
+                    
+                        
+                        
+                        <p>It’s important to note that not all countries and regions have taken the same approach to COVID-19 containment. While densely populated developed market countries such as Italy, Spain and the US have all generally implemented “stay-at-home” policies with schools cancelled and only essential businesses operating, Sweden is an outlier. The Scandinavian country has taken a more hands-off approach to the virus, with many schools and businesses still open, and economic activity not as depressed as in many of its peers. While Sweden benefits from a particularly low population density and small average household size, the country has seen COVID-19 infections and deaths creep up in recent weeks (Exhibit 7), and time will tell whether its approach was prudent. </p> 
+
+                    
+                
+          
+                
+                
+                  
+                        <!--| STANDOUT TEXT |-->
+                        <aside class="quote-item quote-glove">
+                            <div class="item-content">
+                                “While official COVID-19 cases and deaths [in Mexico] are still relatively small, indirect measures of the virus such as respiratory infection rates and unexplained deaths suggest that the virus may be spreading rapidly.”
+                            </div>
+                        </aside>
+                    
+                            
+                
+          
+                
+                
+                  
+                        <!--| CHART: Exhibit 6 |-->
+                        
+                        
+                            <figure class="image-container">
+                                <header class="image-header">
+                                    Exhibit 7: 
+                                    <span class="image-header-text">
+                                        COVID-19 Daily Trends in Sweden
+                                    </span>
+                                </header>
+                                <div class="pad">
+                                    <img src="/common/img/commentary/whitepapers/coronavirus-task-force-2020-05-exhibit-7.png" alt="Explore COVID-19 Daily Trends in Sweden.">
+                                </div>
+                                <footer class="image-footer">
+                                    Source: Bloomberg. As of 30 Apr 20. Select the image to expand the view.
+                                </footer>
+                            </figure>
+                                        
+                     
+                            
+                
+          
+                
+                    <!--| TEXT |-->
+                    
+                        
+                        
+                        <p class="key-paragraph" data-p-count="p18">On the other hand, many EM countries have simply not had the resources or government effectiveness to stop the virus. Mexico is an example of a country that wasn’t proactive about trying to reduce virus transmission. While official COVID-19 cases and deaths there are still relatively small, indirect measures of the virus such as respiratory infection rates and unexplained deaths suggest that the virus may be spreading rapidly. Given divergence in containment approaches and virus trends across countries and regions, we expect international travel to remain depressed in coming months, which will have an impact on industries such as airlines and tourism.</p> 
+
+                    
+                
+          
+                
+                    <!--| TEXT |-->
+                    
+                        
+                            
+                                <h3 class="content-title">
+                            
+                                The Shape of the Recovery 
+                            </h3>
+                        
+                        
+                        <p>Compared with economic cycles that result from downturns in corporate spending, it’s clear that today’s COVID-19 crisis is both steeper and more artificially created, which has both positive and negative implications for the recovery. The steepness of the downturn has accentuated the damage across the global economy as some industries have completely shut down and consumer spending has retrenched. For example, unemployment trends reported in the US over the past month (30 million jobs lost so far and an estimated 16% unemployment rate in April) have been historic in scale. At the same time, the fact that economic pain observed so far has been driven by policy measures rather than cyclical consumer or corporate behavior suggests that a combination of positive virus data and containment relaxation could promote a sharper-than-typical recovery. </p> <p>Exhibit 8 compares the US GDP growth rate decline of the 2008-2009 global financial crisis with the market’s expectation for the growth impact of today’s pandemic. Our current expectation is for a steeper downturn than during the early quarters of the GFC, as illustrated by recent data that showed US real GDP shrank by 4.8% in 1Q20. With containment measures having suppressed economic activity in April, it’s clear that 2Q20 global GDP will also be very weak. However, we believe that economic activity should start rebounding in May/June, and we expect 3Q20 to show sequential progress. Assuming that return-to-work measures outlined above are effective and infections remain low, we anticipate that utilization will increase across large parts of the economy in 4Q20, with 2021 showing a more broad-based recovery that includes more consumer sectors. We do remain cautious on sectors that may be vulnerable longer-term to social distancing and changed consumer behavior, such as travel, entertainment and sports.</p> 
+
+                    
+                
+          
+                
+                
+                  
+                        <!--| CHART: Exhibit 7 |-->
+                        
+                        
+                            <figure class="image-container">
+                                <header class="image-header">
+                                    Exhibit 8: 
+                                    <span class="image-header-text">
+                                        US Recessions Compared by Quarter
+                                    </span>
+                                </header>
+                                <div class="pad">
+                                    <img src="/common/img/commentary/whitepapers/coronavirus-task-force-2020-05-exhibit-8.png" alt="Explore US Recessions Compared by Quarter.">
+                                </div>
+                                <footer class="image-footer">
+                                    Source: Bloomberg historical and consensus estimates. As of 30 Apr 20. Select the image to expand the view.
+
+                                </footer>
+                            </figure>
+                                        
+                     
+                            
+                
+          
+                
+                
+                  
+                        <!--| STANDOUT TEXT |-->
+                        <aside class="quote-item quote-glove">
+                            <div class="item-content">
+                                “… China’s drastic lockdown in early 2020 and subsequent rebound can be a case study for the shape of the recovery elsewhere.”
+                            </div>
+                        </aside>
+                    
+                            
+                
+          
+                
+                    <!--| TEXT |-->
+                    
+                        
+                        
+                        <p class="key-paragraph" data-p-count="p21">While we acknowledge that damage to both consumer and corporate balance sheets could provide headwinds to the idea of a quicker rebound than seen following the GFC, it’s important to note that the US and European banking sectors entered the current downturn with approximately three times more Tier 1 common equity than they had before the GFC<sup>7</sup>. Furthermore, the government policy response has been both rapid and enormous in scale. These differences should help support the recovery once the global economy is unshackled from containment measures.</p> <p>While most of the global economy has been fairly synchronized in the timing of containment measures and the resulting slowdown in economic activity, China’s drastic lockdown in early 2020 and subsequent rebound can be a case study for the shape of the recovery elsewhere. Exhibit 9 shows the robust recovery in Chinese economic activity as lockdown measures have been relaxed in recent months, with industrial utilization showing 80%-100% of normal activity.</p> 
+
+                    
+                
+          
+                
+                
+                  
+                        <!--| CHART: Exhibit 8 |-->
+                        
+                        
+                            <figure class="image-container">
+                                <header class="image-header">
+                                    Exhibit 9: 
+                                    <span class="image-header-text">
+                                        China’s Recovery as a Case Study
+                                    </span>
+                                </header>
+                                <div class="pad">
+                                    <img src="/common/img/commentary/whitepapers/coronavirus-task-force-2020-05-exhibit-9.png" alt="Explore China’s Recovery as a Case Study.">
+                                </div>
+                                <footer class="image-footer">
+                                    Source: Gavekal. As of 01 May 20. Select the image to expand the view.
+
+                                </footer>
+                            </figure>
+                                        
+                     
+                            
+                
+          
+                
+                    <!--| TEXT |-->
+                    
+                        
+                            
+                                <h3 class="content-title">
+                            
+                                How Western Asset Is Positioning for the Recovery
+                            </h3>
+                        
+                        
+                        <p>Global markets are now over a month past the mid-March panic of drawdowns and forced deleveraging that was ultimately stabilized by unprecedented central bank backstops. Both the pace and scale of market moves have been historic, but we’ve also seen significant rebounds in some asset classes, as described in Exhibit 10.</p> 
+
+                    
+                
+          
+                
+                
+                  
+                        <!--| CHART: Exhibit 9 |-->
+                        
+                        
+                            <figure class="image-container">
+                                <header class="image-header">
+                                    Exhibit 10: 
+                                    <span class="image-header-text">
+                                        Post-Virus Market Changes
+                                    </span>
+                                </header>
+                                <div class="pad">
+                                    <img src="/common/img/commentary/whitepapers/coronavirus-task-force-2020-05-exhibit-10.png" alt="Explore Post-Virus Market Changes.">
+                                </div>
+                                <footer class="image-footer">
+                                    Source: Bloomberg. As of 30 Apr 20. Select the image to expand the view.
+
+                                </footer>
+                            </figure>
+                                        
+                     
+                            
+                
+          
+                
+                
+                  
+                        <!--| STANDOUT TEXT |-->
+                        <aside class="quote-item quote-glove">
+                            <div class="item-content">
+                                “…we currently believe that investment-grade credit reflects the best riskadjusted return opportunities in the market today given low historical default rates, recession-level spreads and central bank buying.”
+                            </div>
+                        </aside>
+                    
+                            
+                
+          
+                
+                    <!--| TEXT |-->
+                    
+                        
+                        
+                        <p class="key-paragraph" data-p-count="p24">While we believe that we can see the light at the end of the containment tunnel, this doesn’t necessarily mean that it’s time to load up on the highest beta or riskiest parts of the credit markets. Our long-tested approach to value investing reflects both risk and reward considerations, and we currently believe that investment-grade credit reflects the best risk-adjusted return opportunities in the market today given low historical default rates, recession-level spreads and central bank buying. We are complementing purchases of higher quality spread product with an emphasis on front-end US Treasury duration given the likelihood that the Fed and ECB will remain vigilant in fighting deflation risk through anchored policy rates and QE, even if long-term inflation starts to be more of a concern for the market.</p> 
+
+                    
+                
+          
+                
+                
+                  
+                        <!--| CHART: Exhibit 10 |-->
+                        
+                        
+                            <figure class="image-container">
+                                <header class="image-header">
+                                    Exhibit 11: 
+                                    <span class="image-header-text">
+                                        Post-COVID-19 Spread Sector Priorities
+                                    </span>
+                                </header>
+                                <div class="pad">
+                                    <img src="/common/img/commentary/whitepapers/coronavirus-task-force-2020-05-exhibit-11.png" alt="Post-COVID-19 Spread Sector Priorities.">
+                                </div>
+                                <footer class="image-footer">
+                                    Source: Western Asset. Select the image to expand the view.
+
+                                </footer>
+                            </figure>
+                                        
+                     
+                            
+                
+          
+                
+                    <!--| TEXT |-->
+                    
+                        
+                        
+                        <p>While many credit sectors, including high-yield, EM and structured products, face fundamental headwinds during the current environment that could lead to elevated credit losses, we believe that investment-grade (IG) credit is already pricing in a severe default scenario at spreads of roughly 200 basis points (Exhibit 12). We expect IG to lead the credit markets in the early stage of the economic recovery, and that buying from both the Fed and ECB will provide downside protection in the event of a slower than expected rebound. Notably, the Fed’s willingness to add future fallen angels to its IG-rated bond purchases under the SMCCF effectively places future IG credit risk on the central bank’s balance sheet.</p> 
+
+                    
+                
+          
+                
+                
+                  
+                        <!--| CHART: Exhibit 11 |-->
+                        
+                        
+                            <figure class="image-container">
+                                <header class="image-header">
+                                    Exhibit 12: 
+                                    <span class="image-header-text">
+                                        Investment Themes–Corporate Bonds
+                                    </span>
+                                </header>
+                                <div class="pad">
+                                    <img src="/common/img/commentary/whitepapers/coronavirus-task-force-2020-05-exhibit-12.png" alt="Explore Investment Themes–Corporate Bonds.">
+                                </div>
+                                <footer class="image-footer">
+                                    Source: (A) Bloomberg Barclays. As of 30 Apr 20. (B) Moody's, Bloomberg Barclays, Bloomberg. As of 30 Apr 20. Select the image to expand the view.<br>
+<sup>¹</sup>Calculation assumes 25 bps liquidity premium. <sup>2</sup>As of 31 Dec 19.
+
+                                </footer>
+                            </figure>
+                                        
+                     
+                            
+                
+          
+                
+                
+                  
+                        <!--| STANDOUT TEXT |-->
+                        <aside class="quote-item quote-glove">
+                            <div class="item-content">
+                                “As the recovery progresses, we fully expect lowerrated asset classes to benefit and we will be constantly evaluating relative value to determine whether reallocations are merited.”
+                            </div>
+                        </aside>
+                    
+                            
+                
+          
+                
+                    <!--| TEXT |-->
+                    
+                        
+                        
+                        <p>As discussed by our CIO Ken Leech in his <a href="../webcasts.cfm?medid=MarketStrategy20200407" style="text-decoration:underline" target="_blank">2Q20 Market &amp; Strategy Update</a> webcast, given displaced valuations and changing fundamentals, the Firm has updated its asset allocation in many strategies to reflect this updated prioritization of opportunities. For example, Western Asset has reduced EM foreign currency positioning, which is more vulnerable to ongoing growth challenges, in favor of IG credit. As the recovery progresses, we fully expect lower-rated asset classes to benefit and we will be constantly evaluating relative value to determine whether reallocations are merited.</p> 
+
+                    
+                
+          
+                
+                    <!--| TEXT |-->
+                    
+                        
+                            
+                                <h3 class="content-title">
+                            
+                                Risks to the Recovery
+                            </h3>
+                        
+                        
+                        <p class="key-paragraph" data-p-count="p27">A discussion of COVID-19’s aftermath would not be complete without the task force acknowledging the risks that global investors face going forward. In terms of the virus itself, the economic impact of containment measures could be extended by breakouts such as we are currently seeing in Singapore, or a mutation of the virus that makes it harder to defeat. Collateral damage from the rapid deceleration of the global economy could permanently damage consumer and corporate balance sheets, while drastically increased government debt loads (Exhibit 13) could challenge future funding costs. Lower on our list of risks, but still worth mentioning, would be a spike in inflation caused by the extraordinary levels of QE and even debt monetization being observed globally.</p> 
+
+                    
+                
+          
+                
+                
+                  
+                        <!--| CHART: Exhibit 12 |-->
+                        
+                        
+                            <figure class="image-container">
+                                <header class="image-header">
+                                    Exhibit 13: 
+                                    <span class="image-header-text">
+                                        US Debt Projected to Approach 100% of GDP
+                                    </span>
+                                </header>
+                                <div class="pad">
+                                    <img src="/common/img/commentary/whitepapers/coronavirus-task-force-2020-05-exhibit-13.png" alt="Explore US Debt Projected to Approach 100% of GDP.">
+                                </div>
+                                <footer class="image-footer">
+                                    Source: Bloomberg, CBO, CRFB. As of 30 Apr 20. Select the image to expand the view.
+
+                                </footer>
+                            </figure>
+                                        
+                     
+                            
+                
+          
+                
+                
+                  
+                        <!--| STANDOUT TEXT |-->
+                        <aside class="quote-item quote-glove">
+                            <div class="item-content">
+                                “Western Asset’s Coronavirus Task Force continues to evaluate the impact of COVID-19 on a daily basis, including virus data and policy, the trajectory of economic growth and the evolution of the investment opportunity set.”
+                            </div>
+                        </aside>
+                    
+                            
+                
+          
+                
+                    <!--| TEXT |-->
+                    
+                        
+                        
+                        <p>From a long-term perspective, we believe that a combination of extended containment measures and changes in consumer behavior will alter the economic landscape that existed at the beginning of 2020. It’s clear that consumer-facing industries such as restaurants, movie theatres, sporting events and tourism will face secular challenges as social distancing persists and/or consumers embrace digital alternatives. From a corporate standpoint, increased familiarity with working from home and video meetings could displace business travel and real estate demand in the medium-term. Western Asset is already using its deep bottom-up resources and credit sector specialists to analyze the potential impact of these changes on industry and issuer fundamentals as well as on overall economic growth.</p> 
+
+                    
+                
+          
+                
+                    <!--| TEXT |-->
+                    
+                        
+                            
+                                <h3 class="content-title">
+                            
+                                The Path Forward 
+                            </h3>
+                        
+                        
+                        <p>Western Asset’s Coronavirus Task Force continues to evaluate the impact of COVID-19 on a daily basis, including virus data and policy, the trajectory of economic growth and the evolution of the investment opportunity set. While we do not yet believe that the global economy is completely out of the woods, positive trends in virus data combined with unprecedented monetary and fiscal support are setting the table for a recovery beginning in 2H20. Our thoughts remain with you and your families as we all progress through this challenging time, and we hope to continue to serve as your COVID-19 resource for fixed-income investing.</p> 
+
+                    
+                
+          
+                
+                    <!--| TEXT |-->
+                    
+                        
+                        
+                        <p class="key-paragraph" data-p-count="p30"><span style="display:none">...</span></p> 
+
+                    
+                
+          
+          <!-- CLOSE - CONTENT BLOCK ITERATE -->
+          
+            <!--| FOOTNOTES |-->
+            
+                <div class="endnotes-container">
+                    <span class="endnotes-title">
+                        ENDNOTES
+                    </span>	
+                    <ol class="endnotes-list">
+                        
+                
+                    
+                    
+                        <li class="endnotes-item">
+                            <a href="https://www.nejm.org/doi/full/10.1056/NEJMe2002387" style="text-decoration:underline" target="_blank">https://www.nejm.org/doi/full/10.1056/NEJMe2002387</a>
+                        </li>
+                    
+                
+                    
+                    
+                        <li class="endnotes-item">
+                            <a href="https://wwwnc.cdc.gov/eid/article/26/7/20-0282_article" style="text-decoration:underline" target="_blank">https://wwwnc.cdc.gov/eid/article/26/7/20-0282_article</a>
+                        </li>
+                    
+                
+                    
+                    
+                        <li class="endnotes-item">
+                            <a href="https://www.nytimes.com/interactive/2020/world/asia/china-coronavirus-contain.html" style="text-decoration:underline" target="_blank">https://www.nytimes.com/interactive/2020/world/asia/china-coronavirus-contain.html</a>
+                        </li>
+                    
+                
+                    
+                    
+                        <li class="endnotes-item">
+                            Calculated using peak hospital use per <a href="https://covid19.healthdata.org/united-states-of-america" style="text-decoration:underline" target="_blank">https://covid19.healthdata.org/united-states-of-america</a> and US COVID-19 cases as of April 17, 2020 per Bloomberg
+                        </li>
+                    
+                
+                    
+                    
+                        <li class="endnotes-item">
+                            <a href="https://www.cdc.gov/h1n1flu/estimates/April_March_13.htm" style="text-decoration:underline" target="_blank">https://www.cdc.gov/h1n1flu/estimates/April_March_13.htm</a>
+                        </li>
+                    
+                
+                    
+                    
+                        <li class="endnotes-item">
+                            Infection rate estimated by taking reported COVID-19 deaths per Bloomberg grossed up by 200 times to reflect a 1% mortality rate and 100% more previously unidentified COVID-19 deaths
+                        </li>
+                    
+                
+                    
+                    
+                        <li class="endnotes-item">
+                            US Bank CET1 ratios increased from 4.2% in 2007 to 12.2% per BNP Paribas, 28 Feb 19 
+                        </li>
+                    
+                  
+            
+                       </ol>
+                </div>
+            
+        </div>
+    </section>
+</div>
